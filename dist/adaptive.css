@@ -1,0 +1,120 @@
+@media screen and (max-width: 1391px) {
+    .slick-prev {
+        left: -10px;
+    }
+
+    .slick-next {
+        right: -10px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .slick-slider div {
+        margin-left: 1px;
+        margin-right: 4px;
+    }
+
+    .slick-prev {
+        left: -27px;
+    }
+
+    .slick-next {
+        right: -20px;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    #tarif-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-titles{
+        text-align: center;
+    }
+    #tarif-image{
+        padding-top: 60px;
+    }
+    #answer-block {
+        margin: 80px auto 80px auto;
+    }
+}
+@media screen and (max-width: 761px){
+  #footer .container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+  }
+    #rights-reserved{
+        margin-left: 0;
+        width: 74px;
+    }
+}
+@media screen and (max-width: 576px){
+    .slick-list.draggable{
+        /*margin: 0 auto;*/
+    }
+    .slick-prev {
+        left: 62px;
+    }
+    .slick-next {
+        right: 62px;
+    }
+}
+@media screen and (max-width: 544px){
+    #prof_photograph-imgs img {
+        max-width: 52%;
+    }
+    #tarif-image{
+        display: flex;
+        align-items: center;
+    }
+    .main-titles {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    #tarif-image img{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    #answer-block {
+        margin: 51px auto 80px auto;
+    }
+    .slick-prev {
+        left: 14vw;
+    }
+    .slick-next {
+        right: 14vw;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        font-size: 15px;
+        line-height: 6px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+        width: 142px;
+    }
+
+    .ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content .ui-accordion-content-active {
+        height: 107px;
+    }
+
+    #accordion h3 {
+        font-size: 13px;
+    }
+
+    #prof_photograph-imgs img {
+        max-width: 78%;
+    }
+    .slick-prev {
+        left: 1vw;
+    }
+    .slick-next {
+        right: 2vw;
+    }
+
+}

@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Muller_Regular';
+    src: url("../fonts/ofont.ru_Muller.ttf");
+}
+@font-face {
+    font-family: 'Yeseva_One';
+    src: url("../fonts/ofont.ru_Yeseva One.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: 'Muller_Regular', sans-serif;
+}
+
+
+
+#header{
+    background: #FDFDFD;
+    box-shadow: 0 4px 20px rgba(189, 141, 153, 0.2);
+}
+
+#menu{
+
+    width: 510px;
+    margin-left: 239px;
+}
+
+#menu a {
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    color: #BD8D99;
+}
+#main-container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#prof_photograph{
+    padding: 80px 0;
+}
+
+.slick-list {
+    margin: 0 14px;
+}
+#prof_photograph-imgs{
+    position: relative;
+}
+#prof_photograph-imgs img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-titles{
+    font-size: 38px;
+    line-height: 44px;
+    color: #4B0012;
+    font-family: 'Yeseva_One',sans-serif;
+}
+#prof_photograph .main-titles{
+    margin: 0 auto;
+    max-width: 614px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.slick-next{
+    bottom:calc(50% - 21px);
+    right: 0;
+    background: url("../icons/Vector.svg");
+    font-size: 0;
+    z-index: 10;
+    position: absolute;
+
+}
+.slick-prev{
+    top:calc(50% - 21px);
+    background: url("../icons/Vector.svg");
+    font-size: 0;
+    transform: rotate(180deg);
+    z-index: 10;
+    position: absolute;
+}
+.slick-slide .slick-cloned{
+    width: 0;
+}
+
+.slider-arrows{
+    max-width: 24px;
+    max-height: 42px;
+}
+#prof_photograph button{
+    border: none;
+    width: 24px;
+    height: 42px;
+}
+
+
+
+
+#tabs{
+    width: 670px;
+    padding: 0;
+    border: none;
+}
+#tabs ul {
+    padding: 0;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    font-family: 'Muller_Regular', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #B08989;
+    box-sizing: border-box;
+    padding: 22px;
+    width: 160px;
+    background: white;
+    border-radius: 10px 10px 0 0;
+
+    border: 1px solid #FCF2F2;
+
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{
+    color: #4B0012;
+    background: #FCF2F2;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+.ui-tabs .ui-tabs-panel{
+    background: #FCF2F2;
+    box-sizing: border-box;
+
+}
+.ui-tabs .ui-tabs-nav li{
+    margin: 0 5px 0 5px;
+    background: none;
+    border: none;
+
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+border: #FCF2F2;
+background: white;
+}
+
+.ui-tabs-panel .ui-corner-bottom .ui-widget-content{
+border: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+margin: 0;
+padding: 0;
+}
+.ui-corner-all{
+border: none;
+background: white;
+}
+
+
+.ui-widget-content{
+    font-family: 'Muller_Regular', sans-serif;
+    font-size: 16px;
+    color: #1E0108;
+
+}
+
+.ui-tabs .ui-tabs-panel{
+    padding: 40px 12px 30px 28px;
+}
+
+
+.tabs-title{
+    font-size: 18px;
+    line-height: 23px;
+    color: #4B0012;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#tarif .main-titles{
+    padding-bottom: 43px;
+}
+#tarif-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#answer-block{
+    max-width: 928px;
+    margin: 120px auto 80px auto;
+}
+#answer-block .main-titles{
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+
+
+.ui-accordion .ui-accordion-header{
+    background: #FCF2F2;
+    border-radius: 10px;
+    color: #4B0012;
+    font-family: 'Muller_Regular', sans-serif;
+    font-weight: bold;
+    padding: 30px 20px;
+    position: relative;
+}
+#accordion span{
+    position: absolute;
+    right: 32px;
+    transform: rotate(90deg);
+
+}
+
+.ui-accordion .ui-accordion-header:focus{
+    cursor: pointer;
+}
+.ui-state-active{
+    border: none;
+}
+.ui-state-default{
+    border: none;
+}
+#accordion .ui-accordion-content{
+    margin-bottom: 15px;
+}
+#accordion h3{
+    margin-top: 15px;
+}
+
+p{
+    margin: 0;
+}
+
+#accordion .ui-accordion-content{
+    font-family: 'Muller_Regular', sans-serif;
+
+
+}
+.ui-corner-bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: rgba(189, 141, 153, 0.5);
+}
+
+
+
+#footer{
+    background: #FCF4F4;
+}
+#rights-reserved{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 379px;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(189, 141, 153, 0.5);
+}
+#footer img{
+    padding: 12px 0;
+}
